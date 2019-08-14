@@ -5,7 +5,7 @@ const search = document.querySelector('input')
 const message1 = document.querySelector('#m1')
 const message2 = document.querySelector('#m2')
 
-weatherForm.addEventListener('submit',(e)=> {
+weatherForm.addEventListener('submit',(e)=> { 
     e.preventDefault()
     const location2 = search.value
      message1.textContent = ' Loading....'
