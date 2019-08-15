@@ -10,7 +10,7 @@ if(error){
 } else if(body.error){
    callback(' something went wrong! ', undefined)
 }else{
-callback(undefined, ' The current temperature is: ' + ' ' + body.currently.temperature+ ' ' + 'and therer is '+' '+ body.currently.precipProbability *100+ '%' +' '+'cahnce of  rain' +' '+'. And the pressure is: '+ ' '+ body.currently.pressure)
+callback(undefined, ' The current temperature is: ' + ' ' + body.currently.temperature+ ' ' + 'and there is '+' '+ body.currently.precipProbability *100+ '%' +' '+'chance of  rain' +' '+'. And the pressure is: '+ ' '+ body.currently.pressure)
 }
 }) 
 }
